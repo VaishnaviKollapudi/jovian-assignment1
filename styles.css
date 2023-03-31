@@ -1,0 +1,205 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff8f0;
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206d;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px 0 30px 0;
+  font-family: "League Spartan", sans-serif;
+  font-size: 3rem;
+  line-height: 50px;
+  font-weight: 700;
+  color: #190d37;
+}
+h1 span {
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 40px;
+  color: #000;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hero-section {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto 48px auto;
+}
+
+.hero-content {
+  padding: 32px 20px 32px 20px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.small-text {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 14px;
+  color: #000;
+}
+
+.hero-name {
+  margin-top: 52px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #291854;
+}
+
+.big-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.hero-content .big-text {
+  line-height: 32px;
+  color: #331e6a;
+  text-align: left;
+}
+
+.hero-image-wrapper {
+  width: 50%;
+}
+
+#hero-image {
+  width: 100%;
+}
+
+#contact-button {
+  width: 138px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  background-color: #2f2f2f;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.role-section,
+.projects-section {
+  max-width: 1060px;
+  margin: 48px auto;
+  text-align: center;
+}
+
+.over-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2858ff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  max-width: 700px;
+  margin: 8px auto;
+}
+
+.blurb {
+  max-width: 700px;
+  margin: 0 auto 48px auto;
+  color: #190d37;
+}
+
+.role-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-outer {
+  width: 33%;
+}
+.card-inner {
+  background-color: #fff;
+  margin: 0 15px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.project-container h3 {
+  padding: 0 0 0 8px;
+  margin: 0;
+  text-transform: none;
+}
+
+.project-frame {
+  padding: 20px;
+}
+
+.icon {
+  float: left;
+  margin-right: 20px;
+  height: 150px;
+}
+
+.project-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6a87a3;
+  margin-top: 8px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+#footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 58px;
+  margin-top: 157px;
+}
+
+#copyright {
+  padding-top: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
